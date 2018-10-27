@@ -87,6 +87,7 @@ GameStart.java: This class instantiates objects of the SoundEffects.java and Laz
 
 ## Assumptions
 • Tank Wars: For Tank Game we assume that we don’t have to make the graphic looks exactly the same as instructor's example. So we let the health bar and life dots to go with the tank instead of showing them at the bottom of the screen.
+
 • Lazarus Game: For Lazarus Game, we assume that we created multiple levels, so we only did multiple levels and made the map looks exactly the same as the example shown on instruction. Also, when we tried to reuse the objects we created for Tank Wars, we assume that we can simply duplicate the objects and make modifications in order to make it work for our second game.
 
 ## Goals of Games
