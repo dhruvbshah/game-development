@@ -104,6 +104,7 @@ A lot of teamwork and a lot of logical discussing of the code were needed to get
 
 ## Lessons Learned
 • To reuse code. Had more practice with GitHub. 
+
 • Challenges: To work with images and frames.
 
 ## References
