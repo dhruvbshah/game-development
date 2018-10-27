@@ -19,7 +19,7 @@ the play button and it will prompt the user click on the start game.
 
 ## Implementations
 
-TANK WAR GAME:
+ # TANK WAR GAME:
 
 Package name: resource
 This package contains the files used by the java program for sound and images. It has also a file with the map of the walls and the starting position of the tanks. 
@@ -47,22 +47,36 @@ Player.java:  It has methods to display health, lives and points.
 
 Icon.java: It has methods to load the images of the sprites. 
 
-LAZARUS GAME:
+ # LAZARUS GAME:
 
 Package name: resource
+
 This package contains the files used by the java program for sound and images. It has also a file contains the map of the walls, the stop button location and Lazarus initial location. 
+
 Package name:  Lazarus
+
 This package contains the java code.
+
 Class Description:
+
 SoundEffects.java : This class has methods to play sounds continuously or just once.
+
 KeyControl.java : This class extends KeyAdapter and will get the keyboard actions, which then is passed to EventNotifier.
+
 EventNotifier.java : This class implements the Observable class. It will notify the observer whenever collisions and keyboard events occur.
+
 GameObject.java: This class has the data fields and behaviors that are shared among the objects of the game, such as position and speed. It contains update, draw, get, set methods.
+
 Box.java: This class extends GameObject and implements Observer. This class has data fields for the position, speed, kind of box, and the box situation (dropping or not). There are get methods, method to detect the collision event, draw and update methods. 
+
 StopButton.java: This class extends GameObject and implements Observer. The stop button is used to stop the boxes from falling and then advancing the level to the next level. It has setters and update methods.
+
 Lazarus.java:  This class extends GameObject and implements Observer. It has methods related to the position and movements of Lazarus. It has get, set, collision event identification, update, and draw methods.
+
 GameWorld.java: This class extends JApplet and implements Runnable. It has methods to convert image files in buffered images, as well as, start, run, get and set methods. 
+
 LazarusWorld.java: This class extends GameWorld.java. It loads the  background, the sprites images, and checks the collisions between boxes, Lazarus, wall, and stop buttons.
+
 GameStart.java: This class instantiates objects of the SoundEffects.java and LazarusWorld.java classes, as well as sets up the frame for the game. It has the “main” method that initializes the game.
 
 
