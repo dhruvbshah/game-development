@@ -6,12 +6,15 @@ This program is written in Java, using the Net Beans 8.2 and JDK 1.8. The purpos
 
 ## How to Use the Project
 • Open the project in Net Beans 8.2 for best result
+
 • The user must clone the repo and set up as a project with existing source code. Then set up the working directory by right clicking on the newly created project Set Configuration
+
 -> Run -> Working Directory
+
 • Then select the cloned repo and continue
-• The user must use the MyGame.TankGame and
-lazarusgame.LazarusGame in order to execute the fully
-functioning games.
+
+• The user must use the MyGame.TankGame and lazarusgame.LazarusGame in order to execute the fully functioning games.
+
 • Afterwards, the program should compile and execute using
 the play button and it will prompt the user click on the start game.
 
