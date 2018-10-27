@@ -18,11 +18,8 @@ This program is written in Java, using the Net Beans 8.2 and JDK 1.8. The purpos
 • Afterwards, the program should compile and execute using
 the play button and it will prompt the user click on the start game.
 
-## Class Diagrams
-
-
-
 ## Implementations
+
 
  # TANK WAR GAME:
 
